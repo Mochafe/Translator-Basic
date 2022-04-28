@@ -1,0 +1,32 @@
+input[type=button] {
+    width: 80px;
+}
+
+textarea {
+    resize: none;
+    overflow: scroll;
+
+    width: 400px;
+    height: 200px;
+
+    margin-left: 15px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.text-area {
+    display: flex;
+}
+
+#key {
+    text-align: center;
+
+    width: 280px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
